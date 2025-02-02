@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اختبار قصير في بطاقة الأسبوع االخامس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1> اختبار قصير في بطاقة الأسبوع الخامس</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1. في التجربة التي يتفاعل فيها الحديد مع البرادة، ماذا يعني إذا لم تجذب المادة البرادة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c"> أن المادة تمتلك خاصية التمغنط .</label>
+                <label><input type="radio" name="q1" value="b"> أن المادة لا تمتلك خاصية التمغنط .</label>
+               	<label><input type="radio" name="q1" value="a">  أن المادة معدنية .</label>			
+							
+            </div>
+        </div>
+		
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. ما هو التفسير لعدم جذب صدأ الحديد للبرادة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> لأن صدأ الحديد يعد عنصرًا.</label>
+                <label><input type="radio" name="q2" value="b"> لأن صدأ الحديد مادة جديدة ذات خصائص مختلفة عن الحديد.</label>
+                <label><input type="radio" name="q2" value="c"> لأن صدأ الحديد يحتفظ بخصائص الحديد الأصلية.</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3. أي من العناصر التالية لا يمكن استخدامها في صناعة الأسلاك الكهربائية؟</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> الكبريت .</label>
+                <label><input type="radio" name="q3" value="b"> الألومنيوم .</label>
+                <label><input type="radio" name="q3" value="c">  النحاس .</label>
+            </div>
+        </div>
+
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. أي من العناصر التالية يتمتع بخصائص عالية في التوصيل للحرارة والكهرباء؟</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> الكربون.</label>
+                <label><input type="radio" name="q4" value="b"> السيليكون.</label>
+                <label><input type="radio" name="q4" value="c"> النحاس.</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. أي من الخصائص التالية ينطبق على الكبريت؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> موصل جيد للكهرباء .</label>
+                <label><input type="radio" name="q5" value="b"> قابل للسحب والطرق .</label>
+                <label><input type="radio" name="q5" value="c">  لا موصل للكهرباء .</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6. ماذا يحدث عندما يتفاعل الحديد مع الأوكسجين والرطوبة؟  </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b">  لا يتغير الحديد.</label>
+				<label><input type="radio" name="q6" value="a"> يحدث تفاعل كيميائي ويتكون الصدأ.</label>
+                <label><input type="radio" name="q6" value="c">  يتحول الحديد إلى غاز.</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. كانت ليلى تلعب في الحديقة ووجدت مسمارًا قد صدأ. فندهشة كيف أصبح لونه بنيًّا وبدأ يفقد بريقه. بدأت ليلى في التفكير، هل يمكنها استخدام المسمار كما هو؟ فقررت أن تجرّب إحضار برادة حديد وتقوم بدلك المسمار (الصدأ) فوجدت أنه لم  يجذب برادة الحديد كما كانت تفعل قطعة الحديد الجديدة.والسبب يعود إلى ؟</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b">  لأن المسمار لم يعد يحتوي على الحديد.</label>
+				<label><input type="radio" name="q7" value="a">   لأن الصدأ ذات كثافة أعلى من الحديد.</label>
+                <label><input type="radio" name="q7" value="c">  لأن المسمار تحوّل إلى مادة جديدة بسبب حدوث تغيير كيميائي.</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. إذا كانت مادة لا موصلة للكهرباء ولا للحرارة، فما نوعها؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b"> فلز .</label>
+				<label><input type="radio" name="q8" value="a"> لافلز .</label>
+                <label><input type="radio" name="q8" value="c"> شبه موصل .</label>
+            </div>
+        </div>
+		
+				<!-- السؤال التاسع -->
+        <div class="question" id="q9-container">
+            <p>9. أحمد يجري تجربة في المختبر، حيث أحضر عينتين من عنصرين مختلفين. لاحظ أن العينة الأولى لامعة، قابلة للطرق والسحب، وموصلة جيدة للكهرباء، بينما العينة الثانية غير لامعة، هشة، ورديئة التوصيل للكهرباء. ما التصنيف الصحيح لكل من العينتين؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="b"> العينة الأولى فلز، والعينة الثانية فلز أيضًا.</label>
+				<label><input type="radio" name="q9" value="a"> العينة الأولى لافلز، والعينة الثانية فلز.</label>
+                <label><input type="radio" name="q9" value="c"> العينة الأولى فلز، والعينة الثانية لافلز.</label>
+            </div>
+        </div>
+				<!-- السؤال العاشر -->
+        <div class="question" id="q10-container">
+            <p>10. أي من المجموعات التالية تحتوي فقط على رموز لعناصر فلزية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="b"> Al,Cu,Fe .</label>
+				<label><input type="radio" name="q10" value="a"> Si, O, N .</label>
+                <label><input type="radio" name="q10" value="c"> C, S, P .</label>
+            </div>
+        </div>
+		
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+	
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'b',
+                q2: 'b',
+                q3: 'a',
+                q4: 'c',
+                q5: 'c',
+				q6: 'a',
+				q7: 'c',
+				q8: 'a',
+				q9: 'c',
+				q10:'b',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 10 أسئلة`;
+        }
+    </script>
+</body>
+</html>
